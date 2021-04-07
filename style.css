@@ -64,14 +64,26 @@ header .heading {
   margin-top: 30px;
 }
 
-.blog {
-  width: 600px;
-  height: 1400px;
+main {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 70px 0;
 }
 
+.blog {
+  width: 540px;
+  margin-right: 39px;
+}
+
+.blog-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
 .sidebar {
-  width: 240px;
-  height: 1400px;
+  width: 230px;
 }
 
 footer {
